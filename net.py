@@ -49,7 +49,7 @@ factor = 1.031305
 
 pre = strs
 post = None
-# no numpy dependency, do my own linear algebra
+# wanted to avoid a numpy dependency, so did my own linear algebra
 for i in range(len(weights)):
     w = weights[i]
     b = biases[i]
@@ -65,6 +65,6 @@ estimate = post[0] * factor
 print()
 # print(estimate)
 
-# not actually a probability, it's scaled neuron activation
+# not really a probability, it's scaled neuron activation
 print(f"P(Z196+|DF27+) = {estimate * 100:.3f}%")
 
