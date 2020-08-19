@@ -57,7 +57,6 @@ for i in range(len(weights)):
     for j in range(len(w)):
         val = 0
         for k in range(len(pre)):
-            # print(i, j, k)
             val += w[j][k] * pre[k]
         post.append(1 / (1 + math.exp(-val-b[j])))
     pre = post
