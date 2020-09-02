@@ -11,7 +11,7 @@ DYS464 values), it won't work either.  In the future, I may create
 networks without this limitation.
 
 Run `net.py` using Python 3.  Enter the values, and it will tell you
-what it thinks.
+what it thinks.  It achieved more than 93%+ accuracy on the test set.
 
 Reference: [R-DF27 project DNA
 results](https://www.familytreedna.com/groups/r1b-df27/dna-results)
